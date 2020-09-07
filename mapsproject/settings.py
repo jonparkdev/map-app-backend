@@ -40,7 +40,7 @@ INSTALLED_APPS = [
     'rest_framework',
     'maps.apps.MapsConfig',
     'knox',
-    'accounts'
+    'accounts.apps.AccountsConfig'
 ]
 
 REST_FRAMEWORK = {

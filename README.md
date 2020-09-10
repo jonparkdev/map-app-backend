@@ -20,7 +20,6 @@ $ sudo apt-get install postgresql postgresql-contrib
 
 ```bash
 $ sudo -i -u postgres
-$ sudo apt-get install postgresql postgresql-contrib
 ```
 
 ```bash

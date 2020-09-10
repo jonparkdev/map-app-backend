@@ -23,9 +23,9 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'i+5$2u)%qa!4sf8*acf^b!rx@tib*jj*q#2jsei+_6gq!&=*&9'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition
@@ -87,9 +87,9 @@ WSGI_APPLICATION = 'mapsbackend.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': 'mydb',
-        'USER': 'jon',
-        'PASSWORD': 'password',
+        'NAME': 'django',
+        'USER': 'django',
+        'PASSWORD': '31a2d3fc56307009b98cc2dd774d359b',
         'HOST': 'localhost',
         'PORT': '',
     }
